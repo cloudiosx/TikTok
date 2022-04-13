@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		634BC95B28077A3D00CC0102 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 634BC95A28077A3D00CC0102 /* GoogleService-Info.plist */; };
 		63C53A10280197F000FE213B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C53A0F280197F000FE213B /* AppDelegate.swift */; };
 		63C53A12280197F000FE213B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C53A11280197F000FE213B /* SceneDelegate.swift */; };
 		63C53A14280197F000FE213B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C53A13280197F000FE213B /* HomeViewController.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		634BC95A28077A3D00CC0102 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		63C53A0C280197F000FE213B /* TikTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C53A0F280197F000FE213B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63C53A11280197F000FE213B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 		63C53A272801B1D800FE213B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				634BC95A28077A3D00CC0102 /* GoogleService-Info.plist */,
 				63C53A18280197F100FE213B /* Assets.xcassets */,
 				63C53A0F280197F000FE213B /* AppDelegate.swift */,
 				63C53A11280197F000FE213B /* SceneDelegate.swift */,
@@ -210,7 +213,6 @@
 				D34E92FDFF26A933A290A9FD /* Pods-TikTok.debug.xcconfig */,
 				BD6A1239C4A443979D3CFD2F /* Pods-TikTok.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -225,6 +227,8 @@
 				63C53A08280197F000FE213B /* Sources */,
 				63C53A09280197F000FE213B /* Frameworks */,
 				63C53A0A280197F000FE213B /* Resources */,
+				2B05F10F3E2FEA5B9A088567 /* [CP] Embed Pods Frameworks */,
+				634BC95C2807883300CC0102 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -275,12 +279,47 @@
 			files = (
 				63C53A1C280197F100FE213B /* LaunchScreen.storyboard in Resources */,
 				63C53A19280197F100FE213B /* Assets.xcassets in Resources */,
+				634BC95B28077A3D00CC0102 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2B05F10F3E2FEA5B9A088567 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TikTok/Pods-TikTok-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TikTok/Pods-TikTok-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TikTok/Pods-TikTok-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		634BC95C2807883300CC0102 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
 		B88E9132159E563BEA173DFA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
