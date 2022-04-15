@@ -23,10 +23,9 @@
 		63C53A3A2801B8C800FE213B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C53A392801B8C800FE213B /* SignUpViewController.swift */; };
 		63C53A3C2801B8D400FE213B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C53A3B2801B8D300FE213B /* SettingsViewController.swift */; };
 		63C53A402801B92D00FE213B /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C53A3F2801B92D00FE213B /* PostViewController.swift */; };
-		63C53A422801B95C00FE213B /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C53A412801B95C00FE213B /* APICaller.swift */; };
 		63C53A442801B9B600FE213B /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C53A432801B9B600FE213B /* StorageManager.swift */; };
 		63C53A462801B9BE00FE213B /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C53A452801B9BE00FE213B /* DatabaseManager.swift */; };
-		63C53A482801B9C500FE213B /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C53A472801B9C500FE213B /* AuthenticationManager.swift */; };
+		63C53A482801B9C500FE213B /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C53A472801B9C500FE213B /* AuthManager.swift */; };
 		63C53A4A2801B9CC00FE213B /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C53A492801B9CC00FE213B /* HapticsManager.swift */; };
 		D0C75187D4BAD99715257407 /* Pods_TikTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2466CCC1432306EA6EB4097 /* Pods_TikTok.framework */; };
 /* End PBXBuildFile section */
@@ -50,10 +49,9 @@
 		63C53A392801B8C800FE213B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		63C53A3B2801B8D300FE213B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		63C53A3F2801B92D00FE213B /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
-		63C53A412801B95C00FE213B /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		63C53A432801B9B600FE213B /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		63C53A452801B9BE00FE213B /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
-		63C53A472801B9C500FE213B /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		63C53A472801B9C500FE213B /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		63C53A492801B9CC00FE213B /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 		C8C6D96EBD9E48A070A0E96F /* Pods-TikTok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikTok.debug.xcconfig"; path = "Target Support Files/Pods-TikTok/Pods-TikTok.debug.xcconfig"; sourceTree = "<group>"; };
 		DA47B636A85122A07BD45EB7 /* Pods-TikTok.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikTok.release.xcconfig"; path = "Target Support Files/Pods-TikTok/Pods-TikTok.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,10 +105,9 @@
 		63C53A232801B1CE00FE213B /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				63C53A412801B95C00FE213B /* APICaller.swift */,
 				63C53A432801B9B600FE213B /* StorageManager.swift */,
 				63C53A452801B9BE00FE213B /* DatabaseManager.swift */,
-				63C53A472801B9C500FE213B /* AuthenticationManager.swift */,
+				63C53A472801B9C500FE213B /* AuthManager.swift */,
 				63C53A492801B9CC00FE213B /* HapticsManager.swift */,
 			);
 			path = Managers;
@@ -354,13 +351,12 @@
 				63C53A3A2801B8C800FE213B /* SignUpViewController.swift in Sources */,
 				63C53A342801B89A00FE213B /* TabBarViewController.swift in Sources */,
 				63C53A2C2801B80C00FE213B /* ExploreViewController.swift in Sources */,
-				63C53A422801B95C00FE213B /* APICaller.swift in Sources */,
 				63C53A402801B92D00FE213B /* PostViewController.swift in Sources */,
 				63C53A2E2801B81700FE213B /* CameraViewController.swift in Sources */,
 				63C53A14280197F000FE213B /* HomeViewController.swift in Sources */,
 				63C53A302801B82100FE213B /* NotificationsViewController.swift in Sources */,
 				63C53A362801B8B100FE213B /* UserListViewController.swift in Sources */,
-				63C53A482801B9C500FE213B /* AuthenticationManager.swift in Sources */,
+				63C53A482801B9C500FE213B /* AuthManager.swift in Sources */,
 				63C53A322801B82B00FE213B /* ProfileViewController.swift in Sources */,
 				63C53A10280197F000FE213B /* AppDelegate.swift in Sources */,
 				63C53A382801B8BD00FE213B /* SignInViewController.swift in Sources */,
